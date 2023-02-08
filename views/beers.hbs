@@ -1,7 +1,7 @@
-<div>
+<div >
 
     <h3>Aqui cervezas</h3>
-
+<div id="containerBeer">
     {{#each beersFromApi}}
 
     <img src="{{image_url}}" alt="cerveza" width=" 50px">
@@ -9,6 +9,8 @@
     <h4>Descripción:{{description}}</h4>
     <h4>Eslogan: {{tagline}}</h4>
 
-    {{/each}}
+    {{!-- {{>beerpartial this}} --}}
 
+    {{/each}}
+</div >
 </div>
